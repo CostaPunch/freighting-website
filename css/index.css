@@ -114,23 +114,28 @@
             text-indent: -9999px;
             background-repeat: no-repeat;
         }
-        
+
+        /*
         .ui-facebook a:hover {
             background-image: url(../images/facebookhover.png);
         }
-        
+        */
+
         .ui-instagram a {
             height: 48px;
             width: 48px;
             display: block;
-            background-image: url(../images/instagram.png);
+            background-image: url(../images/instagramhover.png);
             text-indent: -9999px;
             background-repeat: no-repeat;
         }
         
+        /*
         .ui-instagram a:hover {
-            background-image: url(../images/instagramhover.png);
+            background-image: url(../images/instagram.png);
         }
+        */
+
         /* End of Ui menu */
         
         header {
