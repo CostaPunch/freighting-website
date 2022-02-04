@@ -77,22 +77,26 @@
                             background-repeat: no-repeat;
                         }
                         
-                        .ui-facebook a:hover {
+                        /*
+                            .ui-facebook a:hover {
                             background-image: url(../images/facebookhover.png);
-                        }
-                        
+                        } 
+                        */
+
                         .ui-instagram a {
                             height: 48px;
                             width: 48px;
                             display: block;
-                            background-image: url(../images/instagram.png.png);
+                            background-image: url(../images/instagramhover.png);
                             text-indent: -9999px;
                             background-repeat: no-repeat;
                         }
-                        
+                        /*
                         .ui-instagram a:hover {
-                            background-image: url(../images/instagramhover);
+                            background-image: url(../images/instagram.png);
                         }
+                        */
+
                         /* End of Ui menu */
                         /* Banner Overlay */
                         
@@ -262,11 +266,13 @@
                             text-indent: -9999px;
                             background-repeat: no-repeat;
                         }
-                        
+
+                        /*
                         .ui-call a:hover {
                             background-image: url(../images/callred.png);
                         }
-                        
+                        */
+
                         .ui-email a {
                             width: 48px;
                             height: 48px;
@@ -275,36 +281,14 @@
                             text-indent: -9999px;
                             background-repeat: no-repeat;
                         }
-                        
+
+                        /*
                         .ui-email a:hover {
                             background-image: url(../images/emailgreen.png);
                         }
-                        
-                        .ui-facebook a {
-                            height: 48px;
-                            width: 48px;
-                            display: block;
-                            background-image: url(../images/facebook.png);
-                            text-indent: -9999px;
-                            background-repeat: no-repeat;
-                        }
-                        
-                        .ui-facebook a:hover {
-                            background-image: url(../images/facebookhover.png);
-                        }
-                        
-                        .ui-instagram a {
-                            height: 48px;
-                            width: 48px;
-                            display: block;
-                            background-image: url(../images/instagram.png);
-                            text-indent: -9999px;
-                            background-repeat: no-repeat;
-                        }
-                        
-                        .ui-instagram a:hover {
-                            background-image: url(../images/instagramhover.png);
-                        }
+                        */
+
+                       
                         /* End of Ui menu */
                         
                         .sidebar h3 {
