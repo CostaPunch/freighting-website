@@ -1,0 +1,331 @@
+    html {
+        background-color: #869960;
+        /* Typografy part, Whole text */
+        line-height: 1.5;
+    }
+    /* END of Typografy part, Whole text */
+    
+    body {
+        font-family: Georgia, Geneva, Tahoma, serif;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 0;
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    
+    header {
+        padding-top: 20px;
+        color: #FFF;
+        background-color: #554071;
+        background-image: url(../images/dock.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 165;
+    }
+    
+    header p {
+        margin: 0;
+    }
+    
+    .top-header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 30px;
+    }
+    
+    .items-container-left {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .items-container-right {
+        display: flex;
+        padding-right: 20px;
+        flex-direction: row;
+        place-self: end;
+        align-self: start;
+    }
+    
+    .items-container-right li {
+        float: right;
+        list-style: none;
+    }
+    
+    .call {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    /* UI Menu */
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    
+    @media screen and (max-width: 280px) {
+        .contacts {
+            display: none;
+        }
+    }
+    
+    .loc {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .pos {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .ui-call a {
+        width: 48px;
+        height: 48px;
+        display: block;
+        background-image: url(../images/call.png);
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+    }
+    
+    .ui-email a {
+        width: 48px;
+        height: 48px;
+        display: block;
+        background-image: url(../images/email.png);
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+    }
+    
+    .ui-facebook a {
+        height: 48px;
+        width: 48px;
+        display: block;
+        background-image: url(../images/facebook.png);
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+    }
+    
+    .ui-facebook a:hover {
+        background-image: url(../images/facebookhover.png);
+    }
+    
+    .ui-instagram a {
+        height: 48px;
+        width: 48px;
+        display: block;
+        background-image: url(../images/instagram.png);
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+    }
+    
+    .ui-instagram a:hover {
+        background-image: url(../images/instagramhover.png);
+    }
+    /* End of Ui menu */
+    /* Site Navigation */
+    
+    .site-nav {
+        margin-top: 20px;
+    }
+    
+    .site-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .site-nav li {
+        list-style: none;
+        float: left;
+        margin-right: 5px;
+        box-shadow: 10px 5px 5px #000;
+    }
+    
+    .site-nav a {
+        display: block;
+        color: #FFF;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 3px solid #e5e9dc;
+        border-bottom: none;
+        background: #617140;
+    }
+    
+    .site-nav a:hover {
+        background-color: #e5e9dc;
+    }
+    /* End Site Navigation */
+    
+    .content-area {
+        border-top: 3px solid #e5e9dc;
+        border-bottom: 3px solid #e5e9dc;
+        background-color: #FFF;
+    }
+    
+    img {
+        width: 3cm;
+        height: 3.5cm;
+        margin-right: 20px;
+    }
+    /* Form Styles */
+    
+    form {
+        background-color: #ECECEC;
+        padding: 10px 40px;
+    }
+    
+    .hidden-label {
+        position: absolute;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    
+    .main-area {
+        width: 100%;
+        float: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    
+    .h2 {
+        text-align: center;
+    }
+    
+    .banner-description h2 {
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 300px) {
+        .main-area {
+            width: 100%;
+            float: left;
+            align-self: center;
+            text-align: center;
+        }
+        img {
+            width: 2cm;
+            height: 2.5cm;
+        }
+    }
+    
+    @media screen and (max-width: 520px) {
+        .main-area {
+            width: 100%;
+            float: left;
+            align-self: center;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .main-area {
+            width: 100%;
+            float: left;
+            align-self: center;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 900px) {
+        .main-area {
+            width: 100%;
+            float: left;
+            align-self: center;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 1300px) {
+        .main-area {
+            width: 100%;
+            float: left;
+            align-self: center;
+            text-align: center;
+        }
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 85%;
+        color: rgb(252, 248, 248);
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .fix {
+        clear: both;
+    }
+    
+    .group:before,
+    .group:after {
+        content: "";
+        display: table;
+    }
+    
+    .group:after {
+        clear: both;
+    }
+    
+    .group {
+        zoom: 1;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .hide-small {
+            display: none;
+        }
+    }
+    /* Preload images all codes you are able to view in the lightbox.css file in CSS folder */
+    /* in case if you are going to use it , Can unlock it */
+    /* Thumbnail Styles 
+
+.thumbnaila {
+    margin-right: -15px;
+}
+
+.thumbnails a {
+    float: left;
+    width: 20%;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.thumbnails img {
+    display: block;
+}
+*/
+    /* rotation of thumbnails */
+    
+    .thumbnails:hover img {
+        opacity: .6;
+        transform: scale(.92);
+        transition: all .2s ease-in-out;
+    }
+    
+    .thumbnails img:hover {
+        opacity: 1;
+        transform: scale(1) rotate(2deg);
+        box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+    }

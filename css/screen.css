@@ -1,0 +1,31 @@
+h1 {
+  font-size: 165%
+}
+h1 {
+    font-weight: normal;
+}
+h1 span {
+  color:orange; 
+}
+h1 {text-align: center; 
+ }
+ h1 {
+   color: blue;
+ }
+
+ p {
+  color:green;
+}
+article p {
+  color: yellow;
+}
+footer p {
+  color:blue;
+}
+
+.highlight {
+   background-color: red;
+}
+footer .highlight {
+  background-color: lightgray;
+}
